@@ -1,56 +1,79 @@
-body {color: white;
-    background: #5B3000;
-   margin: auto;
-padding: auto;
-font-family: "Courier New", "courier", "monospace";
-text-align: center;
+body {
+  color: white;
+  background: #5b3000;
+  margin: auto;
+  padding: auto;
+  font-family: "sudo", "courier", "monospace";
+  text-align: center;
 }
 
-h1 {color: white;
-    border-style: solid; 
-    text-align: center;
-    background-color: #726953;
-    margin: 20px;
-    padding; 20px;
-   } 
- h2 {color: white;
-    border-style: solid; 
-    text-align: center;
-    background-color: #726953;
-    margin: 20px;
-    padding; 20px;
-
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  text-align: center;
+  background-color: #726953;
+  margin: 20px;
+  padding: 20px;
 }
- img {width: 200px;
-float: right;
-margin: 20px;
-    padding: 20px;}
-
- ul{list-style-type: none;}
- li {
-    text-decoration: none;
-    font-family: "Courier New", "Courier", "monospace"
-    margin-top: 30px;
-    margin-bottom: 30px;
- }
-.li {color: black}
-
+h2 {
+  width: fit-content;
+  color: white;
+  border-style: solid;
+  text-align: left;
+  background-color: #726953;
+  margin: 20px;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  text-align: left;
+  border: 10px;
+  border: solid;
+  border-color: #000404;
+  background-color: #ccc;
+  text-decoration: none;
+  font-family: "Courier New", "Courier", "monospace";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+nav a:link {
+  color: #ccc;
+}
+/* visited link */
+nav a:visited {
+  color: hsl(123, 93%, 18%);
+}
+/* mouse over link */
 nav a:hover {
-    color: red;
-    text-decoration: none;
-    font: 30px;
+  color: #8ebf42;
 }
-.grid-container {
-background: #e0f6ff}
-.grid-item {background-color: rgb(96, 150, 132);
-    display: 
-    grid; 
-    grid-template-columns: 
-    auto;
-    grid-template-rows: auto;}
+/* selected link */
+nav a:active {
+  color: #800000;
+}
+
+.grid-item {
+  background-color: rgb(96, 150, 132);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  padding: 30px;
+  margin: 30px;
+}
 footer {
-    text-align: center;
-    background-color: #726953;
-    margin: 20px;
-    padding: 20px;    
+  text-align: center;
+  background-color: #726953;
+  margin: 20px;
+  padding: 20px;
+}
+.coffeepic {
+  height: 300px;
+  width: 300px;
+  float: right;
+  padding: 30px;
 }
